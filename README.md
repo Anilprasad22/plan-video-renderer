@@ -97,10 +97,23 @@ Make sure you have Node.js installed. Run the following command to install all N
     php artisan serve
 
 ## Running Tests
-
-1. Run the tests to ensure everything is working properly:
+1. Setup Testing Environment
+- Duplicate your .env file and rename it to .env.testing.
+- In .env.testing, update the following:
+  ```bash
+      - APP_ENV=testing
+      - DB_DATABASE=test_database_name
+- Make sure the same test database name is reflected in your phpunit.xml file:
+  ```bash
+      - <env name="DB_DATABASE" value="test_database_name"/>
+2. Run All Tests
+- To run the full test suite:
     ```bash
     php artisan test
+3. Run a Specific Test
+- To run only the VideoTest:
+    ```bash
+    php artisan test --filter=VideoTest
 
 This will run PHPUnit tests for the Laravel backend.
 
