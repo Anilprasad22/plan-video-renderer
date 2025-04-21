@@ -150,17 +150,17 @@ If you encounter any issues, feel free to refer to the documentation or reach ou
 
 Happy coding! ✨
 
-Some sample screenshots
-Registration page
+## **Some sample screenshots**
+1. Registration page
 ![image](https://github.com/user-attachments/assets/e4e7cd40-c736-4d2f-a066-3796299c19e9)
 
-Login Page
+2. Login Page
 ![image](https://github.com/user-attachments/assets/d45ceb08-1fe3-49df-8683-95a579ab6141)
 
-Dashboard
+3. Dashboard
 ![image](https://github.com/user-attachments/assets/f5a91788-4c54-47f4-ae3c-d5200589d9b8)
 
-Dashboard with search triggered
+4. Dashboard with search triggered
 ![image](https://github.com/user-attachments/assets/ce027375-f5a1-4d76-852c-b7964e361e7a)
 
 
