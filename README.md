@@ -39,23 +39,23 @@ Make sure you have Node.js installed. Run the following command to install all N
 
 4. **Set Up Environment Variables:**
 
-Copy .env.example to .env:
+- Copy .env.example to .env:
     ```bash
     cp .env.example .env
 
-Update your .env file with the correct database and other environment configurations. Ensure the following settings:
+- Update your .env file with the correct database and other environment configurations. Ensure the following settings:
     ```bash
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=your_database_name
-    DB_USERNAME=your_database_username
-    DB_PASSWORD=your_database_password
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=your_database_name
+        DB_USERNAME=your_database_username
+        DB_PASSWORD=your_database_password
 
 
 5. **Generate the Application Key:**
 
-This will set up the encryption key for your application:
+- This will set up the encryption key for your application:
     ```bash
     php artisan key:generate
 
@@ -63,20 +63,20 @@ This will set up the encryption key for your application:
 
 1. Run Laravel Config Cache and Clear Cache:
 
-Clear any existing configuration and cache:
+- Clear any existing configuration and cache:
     ```bash
     php artisan config:cache
     php artisan cache:clear
 
 2. Run Migrations:
 
-Ensure your database is up-to-date by running migrations:
+- Ensure your database is up-to-date by running migrations:
     ```bash
     php artisan migrate
 
 3. Run Seeders (Optional, to Seed Dummy Data):
 
-If you want to populate your database with some dummy data, run:
+- If you want to populate your database with some dummy data, run:
     ```bash
     php artisan db:seed
 
@@ -88,14 +88,13 @@ If you want to populate your database with some dummy data, run:
 
 2. To run the application in prod mode for 
 
-Frontend run the below
+- Frontend run the below
     ```bash
     npm run prod
 
-Backend needs to be setup with the apache server or by running
+- Backend needs to be setup with the apache server or by running
     ```bash
     php artisan serve
-
 
 ## Running Tests
 
@@ -152,15 +151,15 @@ Happy coding! ✨
 
 ## **Some sample screenshots**
 1. Registration page
-![image](https://github.com/user-attachments/assets/e4e7cd40-c736-4d2f-a066-3796299c19e9)
+- ![image](https://github.com/user-attachments/assets/e4e7cd40-c736-4d2f-a066-3796299c19e9)
 
 2. Login Page
-![image](https://github.com/user-attachments/assets/d45ceb08-1fe3-49df-8683-95a579ab6141)
+- ![image](https://github.com/user-attachments/assets/d45ceb08-1fe3-49df-8683-95a579ab6141)
 
 3. Dashboard
-![image](https://github.com/user-attachments/assets/f5a91788-4c54-47f4-ae3c-d5200589d9b8)
+- ![image](https://github.com/user-attachments/assets/f5a91788-4c54-47f4-ae3c-d5200589d9b8)
 
 4. Dashboard with search triggered
-![image](https://github.com/user-attachments/assets/ce027375-f5a1-4d76-852c-b7964e361e7a)
+- ![image](https://github.com/user-attachments/assets/ce027375-f5a1-4d76-852c-b7964e361e7a)
 
 
