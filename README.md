@@ -77,9 +77,11 @@ Make sure you have Node.js installed. Run the following command to install all N
 3. Run Seeders (Optional, to Seed Dummy Data):
 
 - If you want to populate your database with some dummy data, run:
-    ```bash
-    php artisan db:seed
-
+  ```bash
+        php artisan db:seed
+- For this project to seed the dummy video files please run below command:
+  ```bash
+        php artisan db:seed --class=VideoSeeder
 ## Start the application
 
 1. Run the composer command below to start the frontend and backend in dev mode
